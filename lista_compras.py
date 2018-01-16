@@ -2,7 +2,7 @@ mi_lista = []
 
 elemento_lista = input("Que deseas agregar a la lista?(escriba FIN para cancelar)").upper()
 
-while elemento_lista != "FIN":
+while not elemento_lista == "FIN":
     mi_lista.append(elemento_lista)
     elemento_lista = input("Que deseas agregar a la lista?(escriba FIN para cancelar)").upper()
 
